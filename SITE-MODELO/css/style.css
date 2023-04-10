@@ -6,7 +6,7 @@
     font-family: 'Poppins', sans-serif;
 }
 nav{
-    background-color: #18929D;
+    background-color: #fff;
     padding: 10px 60px;
     display: flex;
     justify-content: space-between;
@@ -15,9 +15,19 @@ nav{
 nav .logo a{
     text-decoration: none;
     color: #fff;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 600;
+    width: 100%;
 }
+
+
+#logoimagem{
+    width: 25%;
+    
+
+}
+
+
 nav ul{
     display: flex;
     align-items: center;
@@ -29,7 +39,7 @@ nav li{
 }
 nav li a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 15px;
@@ -58,7 +68,7 @@ nav li a:hover{
 }
 .texto .sub_titulo{
     color: #fff;
-    font-size: 58px;
+    font-size: 30px;
     font-weight: 600;
 }
 .texto .botoes{
